@@ -5,13 +5,16 @@
     <item
         android:icon="@drawable/ic_baseline_house_24"
         android:title="Home"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:id="@+id/home"/>
     <item
         android:icon="@drawable/ic_baseline_edit_24"
         android:title="Compose"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:id="@+id/compose"/>
     <item
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="Home"
-        app:showAsAction="always" />
+        android:title="Profile"
+        app:showAsAction="always"
+        android:id="@+id/profile"/>
 </menu>
